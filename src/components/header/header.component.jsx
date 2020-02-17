@@ -9,7 +9,7 @@ import './header.styles.scss';
 const Header = ( props ) => {
 
     const { currentUser } = props;
-
+    console.log(currentUser)
     return (
         <div className='header'>
             <Link className='logo-container' to='/'>
@@ -22,7 +22,7 @@ const Header = ( props ) => {
                 <Link className='option' to='/shop'>
                     CONTACT
                 </Link>
-                { currentUser.userAuth  ? (
+                { currentUser ? (
                     <div className='option' onClick={ () => auth.signOut() }>
                         SIGN OUT
                     </div>
