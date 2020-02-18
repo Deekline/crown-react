@@ -8,11 +8,12 @@ import ShopPage from './pages/shop/shop.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import Header from './components/header/header.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+import { useDispatch } from "react-redux";
+import { setCurrentUser } from "./redux/user/user.actions";
 
 
 function App() {
-    const [ currentUser, setCurrentUser ] = useState( null )
-
+    const dispatch = useDispatch();
 
     useEffect( () => {
         let unsubscribeFromAuth = null;
@@ -21,14 +22,14 @@ function App() {
                 const userRef = await createUserProfileDocument( userAuth );
 
                 userRef.onSnapshot( snapshot => {
-                    setCurrentUser( {
+                    dispatch( setCurrentUser( {
                         id: snapshot.id,
                         ...snapshot.data()
-                    });
+                    } ) );
                 } );
 
             } else {
-                setCurrentUser(null)
+                dispatch( setCurrentUser( null ) );
             }
         } );
         return () => {
@@ -39,7 +40,7 @@ function App() {
 
     return (
         <div>
-            <Header currentUser={ currentUser }/>
+            <Header/>
             <Switch>
                 <Route exact path='/' component={ HomePage }/>
                 <Route path='/shop' component={ ShopPage }/>
