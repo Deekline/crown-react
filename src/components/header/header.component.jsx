@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { auth } from "../../firebase/firebase.utils";
 import { useSelector } from "react-redux";
+import CartIcon from "../cart-icon/cart-icon.component";
+import CartDropdown from "../cart-dropdown/cart-dropdown.component";
 
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 
@@ -10,8 +12,11 @@ import './header.styles.scss';
 const Header = () => {
 
     const currentAuthUser = useSelector( state => ({
-        currentUser: state.user.currentUser
+        currentUser: state.user.currentUser,
+        hidden: state.cart.hidden
     }) );
+
+    const { currentUser, hidden } = currentAuthUser;
 
     return (
         <div className='header'>
@@ -25,7 +30,7 @@ const Header = () => {
                 <Link className='option' to='/shop'>
                     CONTACT
                 </Link>
-                { currentAuthUser.currentUser ? (
+                { currentUser ? (
                     <div className='option' onClick={ () => auth.signOut() }>
                         SIGN OUT
                     </div>
@@ -33,7 +38,11 @@ const Header = () => {
                     <Link className='option' to='/signin'>
                         SIGN IN
                     </Link>) }
+                <CartIcon/>
             </div>
+            {
+                hidden ? null : <CartDropdown/>
+            }
         </div>
     );
 };

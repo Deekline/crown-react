@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /lesson-12
+/lesson-14
 
 # testing
 /coverage

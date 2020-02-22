@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df3f126d-febb-4945-a35a-93e4ffa35411" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -41,6 +41,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.firebase.utils.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -76,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581793162422</updated>
       <workItem from="1581793164076" duration="22346000" />
-      <workItem from="1582361777748" duration="1480000" />
+      <workItem from="1582361777748" duration="4693000" />
     </task>
     <servers />
   </component>
@@ -88,22 +94,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#ESLint/0.0.1440.900@0.0.1440.900" timestamp="1581837719678" />
-    <state width="1419" height="226" key="GridCell.Tab.0.bottom" timestamp="1582362963841">
+    <state width="1419" height="226" key="GridCell.Tab.0.bottom" timestamp="1582363364559">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582362963841" />
-    <state width="1419" height="226" key="GridCell.Tab.0.center" timestamp="1582362963840">
+    <state width="1419" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582363364559" />
+    <state width="1419" height="226" key="GridCell.Tab.0.center" timestamp="1582363364558">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582362963840" />
-    <state width="1419" height="226" key="GridCell.Tab.0.left" timestamp="1582362963839">
+    <state width="1419" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582363364558" />
+    <state width="1419" height="226" key="GridCell.Tab.0.left" timestamp="1582363364557">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582362963839" />
-    <state width="1419" height="226" key="GridCell.Tab.0.right" timestamp="1582362963841">
+    <state width="1419" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582363364557" />
+    <state width="1419" height="226" key="GridCell.Tab.0.right" timestamp="1582363364558">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582362963841" />
+    <state width="1419" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582363364558" />
     <state width="1419" height="284" key="GridCell.Tab.1.bottom" timestamp="1582051459802">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -156,10 +162,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1581972925340" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581838428208">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582367417602">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581838428208" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582367417602" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
