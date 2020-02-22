@@ -13,7 +13,6 @@ const Header = () => {
         currentUser: state.user.currentUser
     }) );
 
-    console.log( currentAuthUser );
     return (
         <div className='header'>
             <Link className='logo-container' to='/'>
