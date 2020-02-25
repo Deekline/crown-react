@@ -40,7 +40,7 @@ export const CheckOut = () => {
                     <CheckoutItem key={cartItem.id} cartItem={cartItem}/>
                 ) )
             }
-            <div className='total'>{ totalValue }</div>
+            <div className='total'>TOTAL: ${ totalValue }</div>
         </div>
     );
 };
