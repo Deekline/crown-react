@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="df3f126d-febb-4945-a35a-93e4ffa35411" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/data.directory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/directory/directory.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/redux/shop" />
+      <recent name="$PROJECT_DIR$/src/redux/directory" />
       <recent name="$PROJECT_DIR$/src/pages/checkout" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -90,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581793162422</updated>
       <workItem from="1581793164076" duration="22346000" />
-      <workItem from="1582361777748" duration="25797000" />
+      <workItem from="1582361777748" duration="30911000" />
     </task>
     <servers />
   </component>
@@ -166,14 +169,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1419" height="284" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1582051459804" />
-    <state width="600" height="440" key="javadoc.popup" timestamp="1581972925340">
+    <state width="600" height="440" key="javadoc.popup" timestamp="1582661018306">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1581972925340" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582658907284">
+    <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1582661018306" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582663840009">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582658907284" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582663840009" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
