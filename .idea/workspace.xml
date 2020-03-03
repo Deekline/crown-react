@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="df3f126d-febb-4945-a35a-93e4ffa35411" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/data.directory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/directory/directory.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/directory/directory.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/directory/directory.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581793162422</updated>
       <workItem from="1581793164076" duration="22346000" />
-      <workItem from="1582361777748" duration="30911000" />
+      <workItem from="1582361777748" duration="33572000" />
+      <workItem from="1583264436235" duration="3108000" />
     </task>
     <servers />
   </component>
@@ -105,22 +104,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#ESLint/0.0.1440.900@0.0.1440.900" timestamp="1581837719678" />
-    <state width="1419" height="226" key="GridCell.Tab.0.bottom" timestamp="1582659513107">
+    <state width="1419" height="226" key="GridCell.Tab.0.bottom" timestamp="1583268139509">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582659513107" />
-    <state width="1419" height="226" key="GridCell.Tab.0.center" timestamp="1582659513106">
+    <state width="1419" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583268139509" />
+    <state width="1419" height="226" key="GridCell.Tab.0.center" timestamp="1583268139508">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582659513106" />
-    <state width="1419" height="226" key="GridCell.Tab.0.left" timestamp="1582659513105">
+    <state width="1419" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583268139508" />
+    <state width="1419" height="226" key="GridCell.Tab.0.left" timestamp="1583268139507">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582659513105" />
-    <state width="1419" height="226" key="GridCell.Tab.0.right" timestamp="1582659513106">
+    <state width="1419" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583268139507" />
+    <state width="1419" height="226" key="GridCell.Tab.0.right" timestamp="1583268139509">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582659513106" />
+    <state width="1419" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583268139509" />
     <state width="1419" height="284" key="GridCell.Tab.1.bottom" timestamp="1582051459802">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -173,10 +172,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1582661018306" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582663840009">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583268181103">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582663840009" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583268181103" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
